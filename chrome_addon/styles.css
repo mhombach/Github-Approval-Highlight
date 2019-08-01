@@ -1,0 +1,7 @@
+div.js-issue-row a[aria-label*="review approvals"],
+div.js-issue-row a[aria-label*="review approvals"]:hover {
+    border: 3px solid #28a745;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+}

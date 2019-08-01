@@ -1,0 +1,27 @@
+{
+    "name": "Github-Approval-Highlight",
+    "version": "1.0",
+    "description": "This Chrome-Addon aims to markup the approvals in PRs",
+    "manifest_version": 2,
+    "author": "Martin Hombach",
+
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "matches": ["https://github.com/*"]
+    }],
+    "permissions": ["activeTab"],
+    "page_action": {
+      "default_icon": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      },
+      "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      }
+    }
+  }
